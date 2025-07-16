@@ -71,6 +71,17 @@ const Navigation: React.FC = () => {
 
           {/* Download Button */}
           <motion.button
+          onClick={
+            () => {
+              const downloadUrl = 'https://www.dropbox.com/scl/fi/32hwr2f2w10lt8w5xs69v/BooKStream.apk?rlkey=ayfspei0mrvz0t4aaqmyvvaqf&st=yisoslx4&dl=1';
+              const link = document.createElement('a');
+              link.href = downloadUrl;
+              link.download = 'BooKStream.apk';
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+            }
+          }
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="hidden md:flex items-center space-x-2 bg-gradient-to-r from-green-400 to-cyan-400 text-black px-6 py-2 rounded-full font-medium hover:shadow-lg hover:shadow-green-400/25 transition-all duration-300"

@@ -73,6 +73,16 @@ const Home: React.FC = () => {
             </p>
 
             <motion.button
+              onClick={() => {
+                const downloadUrl =
+                  "https://www.dropbox.com/scl/fi/32hwr2f2w10lt8w5xs69v/BooKStream.apk?rlkey=ayfspei0mrvz0t4aaqmyvvaqf&st=yisoslx4&dl=1";
+                const link = document.createElement("a");
+                link.href = downloadUrl;
+                link.download = "BooKStream.apk";
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 0 30px rgba(0, 255, 136, 0.3)",
@@ -352,24 +362,31 @@ const Home: React.FC = () => {
           </motion.div>
           {/* app screenshots with logic*/}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((index) => (
-              <motion.div
-                key={index}
-                initial={{ y: 50, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.6, delay: index * 0.2 }}
-                whileHover={{ scale: 1.05 }}
-                className="flex justify-center"
-              >
-                <div className="relative h-[500px] md:h-[600px] md:w-[300px] flex items-center justify-center rounded-[1.5rem] border border-gray-700 bg-black/80 shadow-2xl transition-all duration-300 group hover:shadow-green-400/40">
-                  <img
-                    src="/appss1.png"
-                    alt={`App Screenshot ${index + 1}`}
-                    className="w-full h-full object-fit rounded-[1.2rem]"
-                  />
-                </div>
-              </motion.div>
-            ))}
+            {[1, 2, 3].map((index: number) => {
+              const imageSources: Record<number, string> = {
+                1: "/homeSc_SS-portrait.png",
+                2: "/createSc_SS-portrait.png",
+                3: "/profileSc_SS-portrait.png",
+              };
+              return (
+                <motion.div
+                  key={index}
+                  initial={{ y: 50, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  transition={{ duration: 0.6, delay: index * 0.2 }}
+                  whileHover={{ scale: 1.05 }}
+                  className="flex justify-center"
+                >
+                  <div className="relative h-[500px] md:h-[600px] md:w-[300px] flex items-center justify-center rounded-[1.5rem] border border-gray-700 bg-black/80 shadow-2xl transition-all duration-300 group hover:shadow-green-400/40">
+                    <img
+                      src={imageSources[index]}
+                      alt={`App Screenshot ${index + 1}`}
+                      className="w-full h-full object-fit rounded-[1.2rem]"
+                    />
+                  </div>
+                </motion.div>
+              );
+            })}
           </div>
         </div>
       </section>

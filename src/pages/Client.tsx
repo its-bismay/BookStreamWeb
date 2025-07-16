@@ -149,7 +149,7 @@ const Client: React.FC = () => {
               >
                 <div className="relative h-[500px] md:h-[600px] md:w-[300px] flex items-center justify-center rounded-[1.5rem] border border-gray-700 bg-black/80 shadow-2xl transition-all duration-300 group hover:shadow-green-400/40">
                   <img
-                    src="/appss1.png"
+                    src="/login-portrait.png"
                     alt="App Screenshot 1"
                     className="w-full h-full object-fit rounded-[1.2rem]"
                   />
@@ -182,7 +182,7 @@ const Client: React.FC = () => {
               >
                 <div className="relative h-[500px] md:h-[600px] md:w-[300px] flex items-center justify-center rounded-[1.5rem] border border-gray-700 bg-black/80 shadow-2xl transition-all duration-300 group hover:shadow-green-400/40">
                   <img
-                    src="/appss1.png"
+                    src="/profileSc_SS-portrait.png"
                     alt="App Screenshot 2"
                     className="w-full h-full object-fit rounded-[1.2rem]"
                   />
