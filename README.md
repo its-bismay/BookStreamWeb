@@ -1,49 +1,49 @@
-# BooKStream: App Hosting & Book Recommendation Platform
+# BooKStream: App Hosting & Book Recommendation Platform 🚀
 
-## Overview
+## Overview 📝
 
 This project is an app hosting website that showcases a featured application along with the technologies used to build both the app and its backend. It provides a platform to present the app, highlight its main features, and demonstrate the tech stack and architecture behind its development.
 
-## Features
+## Features ✨
 
-- **Share Recommendations:** Users can easily share their favorite books and recommendations with the community.
-- **Watch Others' Recommendations:** Discover new books by browsing and watching recommendations shared by other users.
-- **Robust Authentication System:** Secure and seamless authentication ensures user data privacy and a safe experience.
+- 📢 **Share Recommendations:** Users can easily share their favorite books and recommendations with the community.
+- 👀 **Watch Others' Recommendations:** Discover new books by browsing and watching recommendations shared by other users.
+- 🔒 **Robust Authentication System:** Secure and seamless authentication ensures user data privacy and a safe experience.
 
-## Screenshots
+## Screenshots 🖼️
 
 Screenshots of the app can be found in the `public/` directory:
 
-- Home Screen: `public/homeSc_SS-portrait.png`
-- Create Screen: `public/createSc_SS-portrait.png`
-- Profile Screen: `public/profileSc_SS-portrait.png`
-- Login Screen: `public/login-portrait.png`
+- 🏠 Home Screen: `public/homeSc_SS-portrait.png`
+- ➕ Create Screen: `public/createSc_SS-portrait.png`
+- 👤 Profile Screen: `public/profileSc_SS-portrait.png`
+- 🔑 Login Screen: `public/login-portrait.png`
 
-## Technology Stack
+## Technology Stack 🛠️
 
 ### Frontend
 
-- **React** (with TypeScript)
-- **Vite** (build tool)
-- **Tailwind CSS** (utility-first styling)
-- **Framer Motion** (animations)
-- **Lucide React** (icons)
-- **React Router DOM** (routing)
+- ⚛️ **React** (with TypeScript)
+- ⚡ **Vite** (build tool)
+- 🎨 **Tailwind CSS** (utility-first styling)
+- 🎬 **Framer Motion** (animations)
+- 🖌️ **Lucide React** (icons)
+- 🧭 **React Router DOM** (routing)
 
-### Mobile
+### Mobile (Showcased)
 
-- **React Native** (cross-platform mobile development)
-- **Expo** (mobile app development platform)
-- **zustand Toolkit** (state management)
+- 📱 **React Native** (cross-platform mobile development)
+- 🚀 **Expo** (mobile app development platform)
+- 🐻 **zustand Toolkit** (state management)
 
 ### Backend (Showcased)
 
-- **Express.js** (web framework)
-- **MongoDB** (NoSQL database)
-- **Node.js** (runtime)
-- **JWT** (authentication)
+- 🚀 **Express.js** (web framework)
+- 🍃 **MongoDB** (NoSQL database)
+- 💚 **Node.js** (runtime)
+- 🔐 **JWT** (authentication)
 
-## Project Structure
+## Project Structure 🗂️
 
 ```
 AppHostingSite/
@@ -61,12 +61,12 @@ AppHostingSite/
 └── ...
 ```
 
-## Getting Started
+## Getting Started 🚦
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+- 🟢 [Node.js](https://nodejs.org/) (v16+ recommended)
+- 📦 [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ### Installation
 
@@ -82,7 +82,7 @@ AppHostingSite/
 
 ### Running the App Locally
 
-- **Development mode:**
+- 🛠️ **Development mode:**
 
   ```bash
   npm run dev
@@ -90,19 +90,19 @@ AppHostingSite/
 
   The app will be available at `http://localhost:5173` (or as specified by Vite).
 
-- **Production build:**
+- 🏗️ **Production build:**
 
   ```bash
   npm run build
   npm run preview
   ```
 
-- **Linting:**
+- 🧹 **Linting:**
   ```bash
   npm run lint
   ```
 
-## Deployment
+## Deployment 🚀
 
 This project is configured for deployment on [Vercel](https://vercel.com/):
 
@@ -110,16 +110,16 @@ This project is configured for deployment on [Vercel](https://vercel.com/):
 - To deploy, push your repository to GitHub and import it into Vercel.
 - Vercel will automatically detect the Vite + React setup and deploy your app.
 
-## Download the Mobile App
+## Download the Mobile App 📲
 
 You can download the BooKStream APK directly from the app or via the following link:
 [Download APK](https://www.dropbox.com/scl/fi/32hwr2f2w10lt8w5xs69v/BooKStream.apk?rlkey=ayfspei0mrvz0t4aaqmyvvaqf&st=yisoslx4&dl=1)
 
-## Credits & Links
+## Credits & Links 🙌
 
 - **Frontend Code:** [Book-recommend-app (GitHub)](https://github.com/its-bismay/Book-recommend-app)
 - **Backend Code:** [Book-service-backend (GitHub)](https://github.com/its-bismay/Book-service-backend)
-- **Author:** [Bismay Bibha Basu](mailto:bismaybibhabasu33@gmail.com)
+- **Author:** [Bismay Bibhabasu](mailto:bismaybibhabasu33@gmail.com)
 - **Social:** [GitHub](https://github.com/its-bismay) | [X](https://x.com/RewatchRoom) | [Instagram](https://www.instagram.com/bismay_11)
 
 ---
